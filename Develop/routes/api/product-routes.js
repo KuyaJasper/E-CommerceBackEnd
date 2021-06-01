@@ -22,6 +22,8 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
+    //.findByPK means find by primary key
+
   try {
     const productData = await Product.findByPk(req.params.id,
       {include: [Category, {model: Tag, through: ProductTag}]}
