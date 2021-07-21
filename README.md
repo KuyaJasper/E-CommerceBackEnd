@@ -69,6 +69,7 @@ Example of how environment looks in Insomnia:
 ![Screen-Recording](./Assets/ScreenShot.png)
 
 # Application
+For Video Walkthrough:
 
  [![Video Walkthrough](https://img.shields.io/badge/-Click_Here-58a780?style=for-the-badge)](https://drive.google.com/file/d/1L1NW4WkwMc2ewmNSp81pvq8mwmwPn4JU/view?usp=sharing)
 
