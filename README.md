@@ -64,13 +64,13 @@ This will start the server for your browser to use.
 
 # Screen Recording
 
-Example of how deployed application should run:
+Example of how environment looks in Insomnia:
 
 ![Screen-Recording](./assets/screenRecord.gif)
 
 # Application
 
- [![Deployed Application](https://img.shields.io/badge/-Click_Here-58a780?style=for-the-badge)]((https://drive.google.com/file/d/1L1NW4WkwMc2ewmNSp81pvq8mwmwPn4JU/view?usp=sharing))
+ [![Video Walkthrough](https://img.shields.io/badge/-Click_Here-58a780?style=for-the-badge)]((https://drive.google.com/file/d/1L1NW4WkwMc2ewmNSp81pvq8mwmwPn4JU/view?usp=sharing))
 
 
 # Questions
