@@ -1,52 +1,50 @@
 # E-Commerce Backend
 
 # Description
- Homework assignment for RCB using MongoDB and Express
+ Homework assignment for RCB using Sequelize, and Insomnia Core.
 
 # Table of Contents
   * [Development](#Development)
   * [Acceptance Criteria](Acceptance-Criteria)
   * [Installation](Installation)
   * [License](#License)
-  * [Screen Recording](#Screen-Recording)
+  * [Screen Shot](#Screen-Shot)
   * [Questions](#Questions)
   * [Application](#Application)
 
 # Development
 
-The frontend of this project was already provided in our initial setup environment.
-
-This application is hosted and deployed on [Heroku](https://www.heroku.com). For the database server, [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is implemented.
-
-To seed the database, we used [Mongoose](https://mongoosejs.com/) to use Javascript syntax and methods.
-
 For server development we used [Express](https://expressjs.com/). 
+
+For database development, I used [MySQL Workbench](https://www.mysql.com/products/workbench/).
 
 # Acceptance Criteria
 
-```
-The user should be able to:
-
-  * Add exercises to the most recent workout plan.
-
-  * Add new exercises to a new workout plan.
-
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
-
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+```md
+GIVEN a functional Express.js API
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+THEN I am able to connect to a database using Sequelize
+WHEN I enter schema and seed commands
+THEN a development database is created and is seeded with test data
+WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database
+WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+THEN I am able to successfully create, update, and delete data in my database
 ```
 
 # Installation 
 
 Fork this project to run on your local browser.
 
-Inside the package.json, you will see the necessary dependancies you need to install.
+Inside the package.json, you will see the necessary dependancies you need to install. To do so type the command:
 
-You will also need to make sure mongo is running. In a terminal window, make sure mongo is running by typing 
+### `npm install`
 
-### `mongod`
+In the "db" folder, you will find the pre made database name for you to run.
 
-The models, and routes will be set up in their respective folders. You will just need to seed the database.
+The models, and routes will be set up in their respective folders. You will just need to seed the database. 
 
 To seed the database, run the script 
 ### `npm run seed`
@@ -54,7 +52,9 @@ To seed the database, run the script
 After the database is seeded, run the sctipt 
 ### `npm run start` 
 
-This will start the server for your browser to use.
+This will start the server for your browser to use. You will see in the terminal which port the application is running on.
+
+On [Insomnia Core](https://insomnia.rest). You can run the local host, and create requests to the server.
 
 
 # License
@@ -62,11 +62,11 @@ This will start the server for your browser to use.
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd500)](https://jasper-abarquez.mit-license.org)
 
 
-# Screen Recording
+# Screen Shot
 
 Example of how environment looks in Insomnia:
 
-![Screen-Recording](./assets/screenRecord.gif)
+![Screen-Recording](./Assets/ScreenShot.png)
 
 # Application
 
